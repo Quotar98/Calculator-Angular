@@ -1,0 +1,25 @@
+<div class="calculator">
+    <div class="display">{{ result }}</div>
+    <div class="buttons">
+      <button (click)="appendToExpression('1')">1</button>
+      <button (click)="appendToExpression('2')">2</button>
+      <button (click)="appendToExpression('3')">3</button>
+      <button (click)="appendToExpression('+')">+</button>
+  
+      <button (click)="appendToExpression('4')">4</button>
+      <button (click)="appendToExpression('5')">5</button>
+      <button (click)="appendToExpression('6')">6</button>
+      <button (click)="appendToExpression('-')">-</button>
+  
+      <button (click)="appendToExpression('7')">7</button>
+      <button (click)="appendToExpression('8')">8</button>
+      <button (click)="appendToExpression('9')">9</button>
+      <button (click)="appendToExpression('*')">*</button>
+  
+      <button (click)="appendToExpression('0')">0</button>
+      <button (click)="calculateResult()">=</button>
+      <button (click)="clear()">C</button>
+      <button (click)="appendToExpression('/')">/</button>
+    </div>
+  </div>
+  
